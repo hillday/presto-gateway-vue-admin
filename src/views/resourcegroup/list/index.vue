@@ -211,11 +211,11 @@ export default {
       selectResourceGroup: null,
       dialogFormVisible: false,
       form: {
-        priority: '',
-        userRegex: '',
-        sourceRegex: '',
-        queryType: '',
-        clientTags: '',
+        priority: null,
+        userRegex: null,
+        sourceRegex: null,
+        queryType: null,
+        clientTags: null,
         resourceGroupId: null
       },
       formLabelWidth: '120px',
